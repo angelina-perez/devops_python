@@ -1,8 +1,6 @@
-def input_check():
-    num = int(input("Give me a number: "))
-    if num > 10 and num < 20:
-        print("Yay! {} is between 10 and 20".format(num))
-    else:
-        print("BOO! {} is not between 10 and 20".format(num))
+num = int(input("Give me a number: "))
+if num > 10 and num < 20:
+    print("Yay! " + str(num) + " is between 10 and 20")
+else:
+    print("BOO! " + str(num) + " is not between 10 and 20")
 
-input_check()
